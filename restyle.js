@@ -236,6 +236,27 @@ body {
 .Practice_Question_Body select * {
   color: var(--text-color) !important;
 }
+.sbgTile {
+  background: var(--background-color) !important;
+  border: 1px solid var(--border-color-lighter) !important;
+  box-shadow: none !important;
+}
+.catLabel {
+  background: var(--background-color-secondary) !important;
+  border-bottom: 1px solid var(--border-color-lighter) !important;
+}
+.sbgColumn {
+  border: 1px solid var(--border-color-lighter) !important;
+}
+.leftColumn {
+  border: 1px solid var(--border-color) !important;
+}
+#frameAudioControls {
+  border-top: 1px solid var(--border-color) !important;
+}
+.sbgAlert {
+  background: var(--background-color) !important;
+}
 `.trim();
 
     function changeText() {
