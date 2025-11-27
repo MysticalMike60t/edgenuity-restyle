@@ -2,7 +2,7 @@
 // @name         Edgenuity Restyle
 // @namespace    http://tampermonkey.net/
 // @version      1.0.1
-// @description  Robustly injects and maintains restyle CSS across the page, same-origin iframes and shadow roots. Re-inserts if overwritten/removed by the site so styles stay applied.
+// @description  Injects and maintains restyle CSS across the page, same-origin iframes and shadow roots. Re-inserts if overwritten/removed by the site so styles stay applied.
 // @author       ButterBoyyo
 // @match        https://r19.core.learn.edgenuity.com/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=edgenuity.com
@@ -255,6 +255,13 @@ body {
   border-top: 1px solid var(--border-color) !important;
 }
 .sbgAlert {
+  background: var(--background-color) !important;
+}
+.matchColumnItem {
+  background: var(--background-color) !important;
+  border: 1px solid var(--border-color-lighter) !important;
+}
+.bottomSection, .matchLeftColumn, .matchRightColumn, .matchMiddleColumn {
   background: var(--background-color) !important;
 }
 `.trim();
