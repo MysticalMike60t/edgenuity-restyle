@@ -265,8 +265,14 @@ body {
   background: var(--background-color) !important;
 }
 .Wirisformula {
-  background: white;
-  padding: 5px 10px;
+  background: white !important;
+  padding: 5px 10px !important;
+}
+input {
+  background: var(--background-color) !important;
+  border: 1px solid (--border-color) !important;
+  outline: 1px solid (--border-color) !important;
+  color: var(--text-color) !important;
 }
 `.trim();
 
