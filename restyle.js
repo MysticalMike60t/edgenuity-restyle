@@ -50,7 +50,7 @@ body {
 /* Marker for elements hidden by this script */
 [data-restyle-hidden="true"] { display: none !important; visibility: hidden !important; }
 
-#btnEntryAudio, #btnExitAudio {
+#btnEntryAudio {
   background: var(--background-color) !important;
   color: var(--text-color) !important;
   border: none !important;
@@ -273,6 +273,33 @@ input {
   border: 1px solid (--border-color) !important;
   outline: 1px solid (--border-color) !important;
   color: var(--text-color) !important;
+}
+#btnExitAudio {
+  background: var(--background-color) !important;
+  color: var(--text-color) !important;
+  border: none !important;
+  outline: 1px solid var(--error-color) !important;
+  border-radius: 0 !important;
+}
+#nextQuestion {
+  background-image: none !important;
+  background: var(--background-color) !important;
+  color: var(--text-color) !important;
+  border: none !important;
+  outline: 1px solid var(--border-color) !important;
+  border-radius: 0 !important;
+}
+#submit {
+  background: var(--background-color) !important;
+  color: var(--text-color) !important;
+  border: none !important;
+  outline: 1px solid var(--success-color) !important;
+  border-radius: 0 !important;
+}
+.av-container .nav-bar {
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  padding-top: 20px !important;
 }
 `.trim();
 
