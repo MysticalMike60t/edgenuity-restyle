@@ -264,6 +264,10 @@ body {
 .bottomSection, .matchLeftColumn, .matchRightColumn, .matchMiddleColumn {
   background: var(--background-color) !important;
 }
+.Wirisformula {
+  background: white;
+  padding: 5px 10px;
+}
 `.trim();
 
     function changeText() {
